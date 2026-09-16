@@ -78,7 +78,7 @@ I approach every build with a **product engineering mindset** — scope defined 
 
 **Backend & Databases**
 
-<img src="https://skillicons.dev/icons?i=fastapi,nodejs,express,flask,supabase,postgres,mysql,mongodb,redis&theme=dark" />
+<img src="https://skillicons.dev/icons?i=fastapi,nodejs,supabase,postgres,mysql,mongodb&theme=dark" />
 
 **Cloud, DevOps & Tooling**
 
@@ -161,64 +161,6 @@ A TUI-first reconnaissance orchestration framework that drives an industry-stand
 | **Repository** | [View Repository](https://github.com/shubh4m03) |
 
 Recon is usually a pile of shell history and inconsistent output formats. This tool treats it as a data pipeline: each stage emits normalized records into a local store, later stages consume upstream output automatically, and the interface renders live progress without blocking the pipeline. The scope guardrail is a first-class component — targets outside the declared engagement boundary are rejected before any packet leaves the host.
-
-</details>
-
-<details>
-<summary><b>CodeTantra SEA — Secure Exam Environment Vulnerability Research</b></summary>
-
-<br/>
-
-Independent security research against a widely deployed secure examination environment, resulting in the identification and responsible disclosure of an operating-system allowlist bypass in the client-side integrity enforcement layer.
-
-| | |
-| :--- | :--- |
-| **Stack** | Linux internals · Client-side integrity analysis · Runtime instrumentation · Process and file system inspection |
-| **Scale** | Affected a proctoring control deployed across institutional examination infrastructure |
-| **Performance** | Reproducible bypass demonstrated with a minimal, documented proof of concept |
-| **Security** | Full responsible disclosure workflow — reproduction steps, impact assessment, and remediation guidance provided to the vendor |
-| **Impact** | Demonstrated that client-trusted environment attestation cannot substitute for server-side verification |
-| **Repository** | [Disclosure Summary](https://github.com/shubh4m03) |
-
-The core finding was architectural rather than incidental: the control derived its trust decision from a client-controlled source of truth, which meant the platform's integrity guarantee could be invalidated without touching the exam logic itself. The disclosure emphasized moving attestation server-side rather than patching the specific artifact that was spoofed.
-
-</details>
-
-<details>
-<summary><b>Macbease — Unauthenticated Firebase Realtime Database Access</b></summary>
-
-<br/>
-
-Independent security assessment of Macbease identifying broken access control on its Firebase Realtime Database backend, allowing unauthenticated read access to private channel messages via direct, unauthenticated REST requests.
-
-| | |
-| :--- | :--- |
-| **Stack** | Firebase Realtime Database (REST API) · curl · jq · Manual enumeration |
-| **Scale** | 11 nested channel paths enumerated, 207 message records exposed across all observed channels |
-| **Performance** | N/A — security assessment, not a performance-oriented build |
-| **Security** | Identified missing server-side Firebase security rules allowing any unauthenticated client to read private channel/message data by requesting the Firebase host directly, bypassing the app's frontend authorization entirely |
-| **Impact** | High-severity finding (pending confirmation of channel privacy); reported with full reproduction steps and remediation guidance covering Firebase security rules, server-side authorization, and retest validation |
-| **Repository** | Private assessment — report not public |
-
-The root cause was architectural, not a single misconfigured field: the application relied on frontend routing to gate access while the Firebase host itself accepted any unauthenticated REST request. Enumerating nested channel IDs was enough to walk the entire message tree without ever touching the app's login flow. The remediation guidance focused on moving authorization into Firebase's own security rules rather than trusting the client.
-
-</details>
-
-<details>
-<summary><b>PayPal Android SDK — Independent Security Review</b></summary>
-
-<br/>
-
-Independent security research against PayPal's Android SDK integration surface, conducted as part of bug bounty research into how third-party mobile payment SDKs expose sensitive functionality to the host application.
-
-| | |
-| :--- | :--- |
-| **Stack** | Android internals · APK/SDK reverse engineering · Static and dynamic analysis · Bug bounty methodology |
-| **Scale** | Focused on the SDK integration surface within a live, widely-deployed mobile payment platform |
-| **Performance** | N/A — security research engagement, not a performance-oriented build |
-| **Security** | Independent review of SDK exposure, API trust boundaries, and integration-layer handling of sensitive payment flows |
-| **Impact** | Bug bounty research contributing to the broader assessment of PayPal's Android integration security posture |
-| **Repository** | Private engagement — no public repository |
 
 </details>
 
