@@ -262,8 +262,9 @@ Represent ICSS on campus, driving security awareness programming and structured 
 
 | Recognition | Details |
 | :--- | :--- |
-| **Responsible Disclosure — CodeTantra SEA** | Identified and disclosed an operating-system allowlist bypass in a deployed secure exam environment, with full reproduction and remediation guidance |
 | **Security Research — Macbease** | Identified and reported unauthenticated Firebase Realtime Database read access exposing 207 private channel messages, with full reproduction and remediation guidance |
+| **Responsible Disclosure — CodeTantra SEA** | Identified and disclosed an operating-system allowlist bypass in a deployed secure exam environment, with full reproduction and remediation guidance |
+| **RootBreach-CTF — NITJ** | Secured Top-5 in NITJ National Level Ctf |
 | **Security Research — PayPal Android SDK** | Conducted an independent security review of PayPal's Android SDK integration surface as part of bug bounty research |
 | **HACK AI Hackathon — PrepGenie** | Designed and shipped a complete agentic AI career coaching platform within the hackathon window |
 | **Trivarna 2.0 CTF** | Competed in the LPU/Astitwam capture-the-flag, solving steganography, BLE traffic analysis, and zero-width character challenges |
@@ -271,9 +272,6 @@ Represent ICSS on campus, driving security awareness programming and structured 
 | **Binary Exploitation & Reverse Engineering** | Solved heap use-after-free exploitation, Android APK reverse engineering, and PCAP forensics challenges |
 | **Founder — RAVEN'34** | Established a student penetration testing division delivering real client engagements and internal security tooling |
 | **GSSoC 2026** | Selected participant in GirlScript Summer of Code, contributing to open source at scale |
-| **WNS Corporate Development Program** | Completed the program and delivered cybersecurity training to a cohort of 30 participants |
-| **Times TCTC Ambassador Program** | Executed the full ambassador engagement, delivering a 250-record student outreach target |
-
 </div>
 
 ---
