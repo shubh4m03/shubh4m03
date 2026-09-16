@@ -340,19 +340,9 @@ Represent ICSS on campus, driving security awareness programming and structured 
 
 <div align="center">
 
-**Amazon Web Services**
-
-<img src="https://img.shields.io/badge/AWS%20Academy%20Cloud%20Foundations-4C1D95?style=flat-square&logo=amazonwebservices&logoColor=white&labelColor=1a0b2e" />
-<img src="https://img.shields.io/badge/AWS%20Cloud%20Practitioner%20Track-4C1D95?style=flat-square&logo=amazonwebservices&logoColor=white&labelColor=1a0b2e" />
-
-**Oracle**
-
-<img src="https://img.shields.io/badge/Oracle%20Cloud%20Infrastructure%20Foundations-5B21B6?style=flat-square&logo=oracle&logoColor=white&labelColor=1a0b2e" />
-<img src="https://img.shields.io/badge/Oracle%20AI%20Foundations-5B21B6?style=flat-square&logo=oracle&logoColor=white&labelColor=1a0b2e" />
-
 **EC-Council**
 
-<img src="https://img.shields.io/badge/EC--Council%20Android%20Bug%20Bounty%20Hunting%20Course-6D28D9?style=flat-square&logo=eccouncil&logoColor=white&labelColor=1a0b2e" />
+<img src="https://img.shields.io/badge/EC--Council%20Android%20Bug%20Bounty-6D28D9?style=flat-square&logo=eccouncil&logoColor=white&labelColor=1a0b2e" />
 
 **Cisco**
 
@@ -417,30 +407,6 @@ Represent ICSS on campus, driving security awareness programming and structured 
 
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=shubh4m03&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&title_color=A78BFA&icon_color=7C3AED&text_color=C4B5FD&bg_color=0D1117" />
 <img height="180em" src="https://streak-stats.demolab.com?user=shubh4m03&hide_border=true&background=0D1117&stroke=7C3AED&ring=A78BFA&fire=8B5CF6&currStreakLabel=A78BFA&sideLabels=C4B5FD&dates=6D28D9&sideNums=C4B5FD&currStreakNum=A78BFA" />
-
-<br/>
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shubh4m03&layout=compact&langs_count=10&hide_border=true&title_color=A78BFA&text_color=C4B5FD&bg_color=0D1117" />
-
-</div>
-
----
-
-## GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=shubh4m03&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" />
-
-</div>
-
----
-
-## Contribution Activity
-
-<div align="center">
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=shubh4m03&bg_color=0D1117&color=C4B5FD&line=7C3AED&point=A78BFA&area=true&area_color=4C1D95&hide_border=true" />
 
 </div>
 
