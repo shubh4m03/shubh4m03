@@ -335,12 +335,36 @@ Owning the digital transformation of a commercial retail operation — paper →
 
 <div align="center">
 
-<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=shubh4m03&theme=tokyonight" />
-<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=shubh4m03&theme=tokyonight" />
+<img width="100%" src="metrics/overview.svg" />
+
+<table>
+<tr>
+<th>📅 commit city</th>
+<th>🈷️ languages</th>
+</tr>
+<tr>
+<td align="center"><img width="400" src="metrics/isocalendar.svg" /></td>
+<td align="center"><img width="400" src="metrics/languages.svg" /></td>
+</tr>
+<tr>
+<th>💡 coding habits</th>
+<th>🗳️ leetcode</th>
+</tr>
+<tr>
+<td align="center"><img width="400" src="metrics/habits.svg" /></td>
+<td align="center"><img width="400" src="metrics/leetcode.svg" /></td>
+</tr>
+</table>
+
+<details>
+<summary><b>🏆 GitHub achievements</b></summary>
+<br/>
+<img width="400" src="metrics/achievements.svg" />
+</details>
+
+<br/>
 
 <img height="170" src="https://streak-stats.demolab.com?user=shubh4m03&hide_border=true&background=0D1117&stroke=7C3AED&ring=A78BFA&fire=C084FC&currStreakLabel=C084FC&sideLabels=C4B5FD&dates=8B5CF6&sideNums=C4B5FD&currStreakNum=A78BFA" />
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=shubh4m03&bg_color=0D1117&color=C4B5FD&line=7C3AED&point=C084FC&area=true&area_color=4C1D95&hide_border=true&title_color=A78BFA" />
 
 <img width="100%" src="https://raw.githubusercontent.com/shubh4m03/shubh4m03/output/snake.svg" />
 
