@@ -421,13 +421,3 @@ open_to:
 </div>
 
 
-This is the readme.md file for my github profile
-
-improve it to the peak and best 
-it should look genz and modern 
-
-Aesthetic and super cool 
-
-perfect 
-
-make no mistake
